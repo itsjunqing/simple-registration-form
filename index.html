@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Developer Conference Registration</title>
+	<link rel="stylesheet" type="text/css" href="Semantic-UI/semantic.min.css">
+	<script
+	src="https://code.jquery.com/jquery-3.1.1.min.js"
+	integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+	crossorigin="anonymous"></script>
+	<script src="semantic/dist/semantic.min.js"></script>
+</head>
+<body>
+	<div class="ui container">
+		<h1>Basic Info</h1>
+		<form class="ui form">
+
+			<div class="field">
+				<label>First Name</label>
+				<input type="text" name="first-name" placeholder="First Name">
+			</div>
+
+			<div class="field">
+				<label>Last Name</label>
+				<input type="text" name="last-name" placeholder="Last Name">
+			</div>
+
+			<div class="field">
+				<label>Email</label>
+				<input type="text" name="user-email" placeholder="Email">
+			</div>
+
+			<label for="job">Job Role</label>
+			<select class="ui dropdown" id="title">
+				<option value="full-stack-developer">Full Stack Developer</option>
+				<option value="front-end-developer">Front End Developer</option>
+				<option value="back-end-developer">Back End Developer</option>
+				<option value="UI/UX-designer">UI/UX Designer</option>
+				<option value="student">Student</option>
+				<option value="others">Others</option>
+			</select>
+
+			<div class="ui hidden divider"></div>
+
+			<button class="ui button" type="submit">Submit</button>
+		</form>
+
+
+	</div>
+	
+</body>
+</html>
